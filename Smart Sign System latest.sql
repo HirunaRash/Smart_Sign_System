@@ -119,4 +119,21 @@ CREATE TABLE Transactions (
     FOREIGN KEY (RuleId)     REFERENCES ChequeSigningRule(RuleId)
 );
 
+-- Employee Credentials table
+CREATE TABLE EmployeeCredentials (
+    CredentialId        INT AUTO_INCREMENT PRIMARY KEY,
+    EmployeeId          INT NOT NULL UNIQUE,            -- one login per employee
+    PasswordHash        VARCHAR(255) NOT NULL,           -- never store plain text passwords
+    Role                VARCHAR(50) NOT NULL,            -- e.g. Admin, Approver, Employee
+    LastLoginAt         DATETIME NULL,
+    FailedLoginAttempts INT DEFAULT 0,
+    IsLocked            BOOLEAN DEFAULT FALSE,
+
+    CreatedAt           DATETIME DEFAULT CURRENT_TIMESTAMP,
+    CreatedBy           INT,
+    UpdateAt            DATETIME NULL,
+    UpdateBy            INT NULL,
+    FOREIGN KEY (EmployeeId) REFERENCES Employees(EmployeeId)
+);
+
 
