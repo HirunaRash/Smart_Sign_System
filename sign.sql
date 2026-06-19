@@ -42,7 +42,7 @@ CREATE TABLE Employee (
 CREATE TABLE EmployeeSignature (
     SignatureId INT AUTO_INCREMENT PRIMARY KEY,
     EmployeeId INT NOT NULL,
-    SignatureImage LONGBLOB, -- රූපය (Image file) database එකේම save කිරීමට හෝ path එකක් ලෙස VARCHAR භාවිතා කළ හැක
+    SignatureImage LONGBLOB,
     ValidFrom DATE NOT NULL,
     ValidTo DATE NOT NULL,
     IsDefault TINYINT(1) DEFAULT 0,
@@ -51,7 +51,7 @@ CREATE TABLE EmployeeSignature (
     CONSTRAINT FK_Signature_Employee FOREIGN KEY (EmployeeId) REFERENCES Employee(EmployeeId)
 );
 
--- 14. Cheque Template Table (Bank Account එකට පෙර නිර්මාණය කළ යුතුය)
+-- 14. Cheque Template Table 
 CREATE TABLE ChequeTemplate (
     TemplateId INT AUTO_INCREMENT PRIMARY KEY,
     TemplateName VARCHAR(100) NOT NULL,
@@ -86,7 +86,7 @@ CREATE TABLE BankAccount (
 CREATE TABLE ChequeSigningRule (
     RuleId INT AUTO_INCREMENT PRIMARY KEY,
     CompanyId INT NOT NULL,
-    DepartmentId INT NULL, -- NULL විය හැකි බව සඳහන් කර ඇත
+    DepartmentId INT NULL, 
     BankAccountId INT NOT NULL,
     MinAmount DECIMAL(18,2) NOT NULL,
     MaxAmount DECIMAL(18,2) NOT NULL,
