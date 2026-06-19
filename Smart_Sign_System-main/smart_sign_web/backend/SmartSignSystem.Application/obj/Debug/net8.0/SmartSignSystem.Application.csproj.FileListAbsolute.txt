@@ -1,0 +1,16 @@
+C:\Users\USER\Desktop\Smart Sign System\Smart Sign System\smart_sign_web\backend\SmartSignSystem.Application\bin\Debug\net8.0\SmartSignSystem.Application.deps.json
+C:\Users\USER\Desktop\Smart Sign System\Smart Sign System\smart_sign_web\backend\SmartSignSystem.Application\bin\Debug\net8.0\SmartSignSystem.Application.dll
+C:\Users\USER\Desktop\Smart Sign System\Smart Sign System\smart_sign_web\backend\SmartSignSystem.Application\bin\Debug\net8.0\SmartSignSystem.Application.pdb
+C:\Users\USER\Desktop\Smart Sign System\Smart Sign System\smart_sign_web\backend\SmartSignSystem.Application\bin\Debug\net8.0\SmartSignSystem.Data.dll
+C:\Users\USER\Desktop\Smart Sign System\Smart Sign System\smart_sign_web\backend\SmartSignSystem.Application\bin\Debug\net8.0\SmartSignSystem.Data.pdb
+C:\Users\USER\Desktop\Smart Sign System\Smart Sign System\smart_sign_web\backend\SmartSignSystem.Application\obj\Debug\net8.0\SmartSignSystem.Application.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Smart Sign System\Smart Sign System\smart_sign_web\backend\SmartSignSystem.Application\obj\Debug\net8.0\SmartSignSystem.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\Smart Sign System\Smart Sign System\smart_sign_web\backend\SmartSignSystem.Application\obj\Debug\net8.0\SmartSignSystem.Application.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\Smart Sign System\Smart Sign System\smart_sign_web\backend\SmartSignSystem.Application\obj\Debug\net8.0\SmartSignSystem.Application.AssemblyInfo.cs
+C:\Users\USER\Desktop\Smart Sign System\Smart Sign System\smart_sign_web\backend\SmartSignSystem.Application\obj\Debug\net8.0\SmartSignSystem.Application.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Smart Sign System\Smart Sign System\smart_sign_web\backend\SmartSignSystem.Application\obj\Debug\net8.0\SmartSignSystem.Application.sourcelink.json
+C:\Users\USER\Desktop\Smart Sign System\Smart Sign System\smart_sign_web\backend\SmartSignSystem.Application\obj\Debug\net8.0\SmartSig.E0E8D569.Up2Date
+C:\Users\USER\Desktop\Smart Sign System\Smart Sign System\smart_sign_web\backend\SmartSignSystem.Application\obj\Debug\net8.0\SmartSignSystem.Application.dll
+C:\Users\USER\Desktop\Smart Sign System\Smart Sign System\smart_sign_web\backend\SmartSignSystem.Application\obj\Debug\net8.0\refint\SmartSignSystem.Application.dll
+C:\Users\USER\Desktop\Smart Sign System\Smart Sign System\smart_sign_web\backend\SmartSignSystem.Application\obj\Debug\net8.0\SmartSignSystem.Application.pdb
+C:\Users\USER\Desktop\Smart Sign System\Smart Sign System\smart_sign_web\backend\SmartSignSystem.Application\obj\Debug\net8.0\ref\SmartSignSystem.Application.dll
