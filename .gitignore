@@ -4,6 +4,8 @@ backend/**/obj/
 
 # Node
 frontend/node_modules/
+smart_sign_web/backend/node_modules/
+smart_sign_web/backend/.env
 
 # Flutter
 smart_sign_mobile_app/.dart_tool/
